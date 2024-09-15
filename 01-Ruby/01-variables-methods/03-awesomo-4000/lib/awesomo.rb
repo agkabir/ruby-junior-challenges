@@ -31,20 +31,25 @@ PUNCHLINES = [
 
 def plot_generator
   # TODO: your code here
+  return "#{pick_actor} #{pick_setting} #{pick_relation} #{pick_punchline}"
 end
 
 def pick_actor
   # TODO: your code here
+  return ACTORS[rand(0...ACTORS.length)]
 end
 
 def pick_setting
   # TODO: your code here
+  return SETTINGS[rand(0...SETTINGS.length)]
 end
 
 def pick_relation
   # TODO: your code here
+  return RELATION[rand(0...RELATION.length)]
 end
 
 def pick_punchline
   # TODO: your code here
+  return PUNCHLINES[rand(0...PUNCHLINES.length)]
 end
