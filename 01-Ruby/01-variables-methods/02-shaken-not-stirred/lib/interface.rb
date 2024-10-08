@@ -12,4 +12,4 @@ spy_last_name = gets.chomp
 puts "Thanks for the information."
 
 puts "Henceforth, all emails you send will begin with: "
-puts introduce_spy
+puts introduce_spy(spy_first_name,spy_last_name)
